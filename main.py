@@ -4,7 +4,9 @@
 #function game itself
 #function score tracking
 
+from fileinput import close
 from os import system
+import guess
 
 def welcome_options():
     print("Welcome to the super awesome web dev logo and icon colour guessing game! Please see the below menu for options: ")
@@ -21,11 +23,12 @@ while option != "3":
     system('clear')
     if option == "1":
         show_instructions()
-    elif option == "2":
-        #function for playing game
         pass
+    elif option == "2":
+        guess.guess_game()
     elif option == "3":
-        continue
+        print("Thanks for playing!") 
+        exit()
     else:
         print("Invalid option")
         
