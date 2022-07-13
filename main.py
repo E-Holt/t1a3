@@ -4,6 +4,8 @@
 #function game itself
 #function score tracking
 
+from os import system
+
 def welcome_options():
     print("Welcome to the super awesome web dev logo and icon colour guessing game! Please see the below menu for options: ")
     print("1. Show instructions")
@@ -12,6 +14,7 @@ def welcome_options():
     opt = input("Select what you'd like to do: ")
     return opt
 
+option=""
 while option != "3":
     system('clear')
     option = welcome_options()
