@@ -1,24 +1,5 @@
-#hints stored somehow?
-#guess 1-5
-
-#ranomly choose colour, store variable in chosen_color
-#provide randomly chosen hint
-#ask player guess, store as guess_input
-#error for guess input not in colours
-#If correct, print, add points
-#if incorrect, print, give another hint
-#until 5 guesses total
-#after 5 guesses print "Sorry, you're out of guesses!"
-#give total score
-#print ("Would you like to play again? (yes/no): ")
-#yes, continue game adding additional points. 
-#no, print("Thank you for playing!"), back to menu
-from ast import Return
-from os import system
 import random
 import colourlist 
-import main
-#import score 
 keep_adding_points = 0
 
 def guess_game():
@@ -41,6 +22,9 @@ def guess_game():
     if colour_pick == "grey":
         hints = colourlist.grey_list
     random.shuffle(hints)
+    game_input(hints, colour_pick)
+
+def game_input(hints, colour_pick):
     guess_input_counter = 0
     i=0
     print("Try and guess the colour described in the following hint!")
@@ -71,25 +55,10 @@ def guess_game():
         if play_again == "no":
             print("Thanks for playing!")
             exit()
+        if play_again != "yes" and play_again != "no":
+            print("Sorry that's not an option!")
 
 def point_counter(total_points):
     global keep_adding_points
     keep_adding_points = keep_adding_points + total_points
     print("Your total points are", keep_adding_points,"!")
-
-
-
-
-
-
-
-
-#take colour_pick, choose hints
-#choose random hint from dicts
-#give hint for colour_pic
-#prompt guess
-#if guess correct, points
-#if guess incorrect -  
-#Give next random hint, not giving ones given
-#continue until 5 guesses
-#if guess not in list - error
