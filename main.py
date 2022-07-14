@@ -17,7 +17,6 @@ while user_input != "3":
     system('clear')
     if user_input == "1":
         instruction.show_instructions()
-        pass
     elif user_input == "2":
         guess.guess_game()
     elif user_input == "3":
