@@ -2,7 +2,7 @@ import random
 import colourlist 
 keep_adding_points = 0
 
-def _guess_game():
+def guess_game():
     colours = ["red", "yellow", "green", "blue", "purple", "black", "grey"]
     colour_pick = (random.choice(colours))
     if colour_pick == "red":
@@ -40,7 +40,7 @@ def game_input(hints, colour_pick):
         print("Sorry, you're out of guesses!")
         play_again = input("Would you like to play again? (yes/no) ")
         if play_again == "yes":
-            _guess_game()
+            guess_game()
         if play_again == "no":
             print("Thanks for playing!")
             exit()
@@ -51,7 +51,7 @@ def game_input(hints, colour_pick):
         point_counter(total_points)
         play_again = input("Would you like to play again? (yes/no) ")
         if play_again == "yes":
-            _guess_game()
+            guess_game()
         if play_again == "no":
             print("Thanks for playing!")
             exit()

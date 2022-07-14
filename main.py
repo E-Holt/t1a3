@@ -18,7 +18,7 @@ while user_input != "3":
     if user_input == "1":
         instruction.show_instructions()
     elif user_input == "2":
-        guess._guess_game()
+        guess.guess_game()
     elif user_input == "3":
         print("Thanks for playing!") 
         exit()
