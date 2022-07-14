@@ -1,6 +1,3 @@
-
-
-
 keep_adding_points = 0
 def point_counter(total_points):
     global keep_adding_points
