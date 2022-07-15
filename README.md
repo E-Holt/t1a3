@@ -16,12 +16,30 @@
     ![Hints example image](./docs/game_proper.png)
     ![Hints list example image](./docs/hints_list_example.png)
 
-### 3. Scoring feature
+### 3. Scoring keeping feature
     - The scoring feature if found in the  game_input function and the point_counter function. It uses a variable that starts at zero and calculated the points in a round based on how many guesses were input before a correct guess, if a correct guess is given. Additionally, the point_counter function tracks those points and adds them together each round to give a total game score which is reset when the program is exited. The scoring feature is involved in a while loop along with the hints function mentioned above as well as conditional statements dependant on whether the input was a correct guess or not. The scoring feature itself doesn't have error handling function, but utilises the error handling in the game_input function when an incorrect guess is given. 
     ![Scoring function example](./docs/score_function.png)
 
 ## Implementation Plan
-    - 
+    - I used Trello to keep track and what I was working on and what needed to be done by a certain date.
+### Menu feature
+- List menu options
+- Link menu options with relevant functions
+- Figure out how to quit program
+- Create error response 
+- Test menu function
+### Hints feature
+- List hints in an accessible manner
+- Create function for randomly choosing colour
+- Create function for randomly choosing hints
+- Get functions working together
+- Test performance of hints system
+### Score Keeping feature
+- Create relevant scoring system
+- Create function for keeping score across games
+- Connect score functions with main game functions
+- Create error handling
+- Test score keeping function
 
 
 
