@@ -58,4 +58,4 @@ def play_again_fun():
         exit()
     else: 
         print("Sorry that's not an option!")
-        play_again = input("Would you like to play again? (yes/no) ")
+        play_again_fun()
