@@ -1,3 +1,4 @@
+# List of hints that work with the random chosen colour to provide hints for gameplay
 red_list = [
     "This colour is associated with the Ruby logo",
     "This colour is associated with the Angular logo",

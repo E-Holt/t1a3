@@ -1,7 +1,11 @@
+# Import system module from os library for the clear command used below.
 from os import system
+# Import from the guess file for game play.
 import guess
+# import from the instruction file to show the instructions for option 1.
 import instruction
 
+# Menu function, this is displayed 
 def welcome_options():
     print("Welcome to the super awesome web dev logo and icon colour guessing game! Please see the below menu for options: ")
     print("1. Show instructions")
@@ -10,6 +14,7 @@ def welcome_options():
     selection = input("Select what you'd like to do: ")
     return selection
 
+# Menu function, this is the logic.
 user_input = ""
 while user_input != "3":
     system('clear')
@@ -23,6 +28,7 @@ while user_input != "3":
         print("Thanks for playing!") 
         exit()
     else:
+        # Error handling
         print("That isn't an option! Please choose an option from the menu only.")
         
     input("press Enter to continue...")
