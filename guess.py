@@ -1,5 +1,6 @@
 import random
 import colourlist 
+import score
 keep_adding_points = 0
 
 def guess_game():
@@ -48,7 +49,7 @@ def game_input(hints, colour_pick):
     if guess_input == colour_pick:
         print("You guessed the colour! Great job!")
         print ("You got", total_points,"/5 points!")
-        point_counter(total_points)
+        score.point_counter(total_points)
         play_again = input("Would you like to play again? (yes/no) ")
         if play_again == "yes":
             guess_game()
@@ -57,8 +58,3 @@ def game_input(hints, colour_pick):
             exit()
         if play_again != "yes" and play_again != "no":
             print("Sorry that's not an option!")
-
-def point_counter(total_points):
-    global keep_adding_points
-    keep_adding_points = keep_adding_points + total_points
-    print("Your total points are", keep_adding_points,"!")
