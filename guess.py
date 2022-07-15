@@ -40,12 +40,14 @@ def game_input(hints, colour_pick):
     while guess_input != colour_pick and i == 4:
         print("Sorry, you're out of guesses!")
         play_again_fun()
-    total_points = 5-int(guess_input_counter)
     if guess_input == colour_pick:
+        total_points = 5-int(guess_input_counter)
         print("You guessed the colour! Great job!")
         print ("You got", total_points,"/5 points!")
         score.point_counter(total_points)
         play_again_fun()
+    else:
+        print("Sorry, that isn't an option!")
 
 def play_again_fun():
     play_again = input("Would you like to play again? (yes/no) ")
