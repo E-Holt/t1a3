@@ -39,22 +39,21 @@ def game_input(hints, colour_pick):
         guess_input = input("What is the colour? (red, organge, yellow, green, blue, purple, black, grey): ")
     while guess_input != colour_pick and i == 4:
         print("Sorry, you're out of guesses!")
-        play_again = input("Would you like to play again? (yes/no) ")
-        if play_again == "yes":
-            guess_game()
-        if play_again == "no":
-            print("Thanks for playing!")
-            exit()
+        play_again_fun()
     total_points = 5-int(guess_input_counter)
     if guess_input == colour_pick:
         print("You guessed the colour! Great job!")
         print ("You got", total_points,"/5 points!")
         score.point_counter(total_points)
+        play_again_fun()
+
+def play_again_fun():
+    play_again = input("Would you like to play again? (yes/no) ")
+    while play_again == "yes":
+        guess_game()
+    if play_again == "no":
+        print("Thanks for playing!")
+        exit()
+    else: 
+        print("Sorry that's not an option!")
         play_again = input("Would you like to play again? (yes/no) ")
-        if play_again == "yes":
-            guess_game()
-        if play_again == "no":
-            print("Thanks for playing!")
-            exit()
-        if play_again != "yes" and play_again != "no":
-            print("Sorry that's not an option!")
