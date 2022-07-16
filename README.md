@@ -45,9 +45,9 @@
     ![Menu example image](./docs/menu_function.png)
 
 ### 2. Hints feature
-- The hints freature is spread across a couple files and a couple functions to allow the program to choose a random colour and shuffle the related hints list in order to give hints that wont be in the same order on any given round. This involves using a list relevant to each colour, multiple if statments in order to correctly choose the list, an imported random module to randomise the colour choice and shuffle the hints list, as well as a while loop for giving the hints dependant on if the input was correct or not. The hints feature is mostly not interacted with by the user, but does have some error handling capabilities with the rest of the game_input function when the user inputs something that isn't usable.
+- The hints feature is spread across a couple files and a couple functions to allow the program to choose a random colour and shuffle the related hints list in order to give hints that wont be in the same order on any given round. This involves using a list relevant to each colour, multiple if statements in order to correctly choose the list, an imported random module to randomise the colour choice and shuffle the hints list, as well as a while loop for giving the hints dependant on if the input was correct or not. The hints feature is mostly not interacted with by the user, but does have some error handling capabilities with the rest of the game_input function when the user inputs something that isn't usable.
     ![Hints example image](./docs/game_proper.png)
-    ![Hints list example image](./docs/hints_list_example.png)
+    ![Hints list example image](./docs/hints_list_example.png
 
 ### 3. Scoring keeping feature
 - The scoring feature if found in the  game_input function and the point_counter function. It uses a variable that starts at zero and calculated the points in a round based on how many guesses were input before a correct guess, if a correct guess is given. Additionally, the point_counter function tracks those points and adds them together each round to give a total game score which is reset when the program is exited. The scoring feature is involved in a while loop along with the hints function mentioned above as well as conditional statements dependant on whether the input was a correct guess or not. The scoring feature itself doesn't have error handling function, but utilises the error handling in the game_input function when an incorrect guess is given. 
@@ -61,9 +61,6 @@
 - I used Trello to keep track and what I was working on and what needed to be done by a certain date. The Trello board can be found here [Trello board](https://trello.com/b/iTM13wmX/t1a3-board)
     ![Trello board](./docs/trello_board.png)
 
-- outlines how each feature will be implemented and a checklist of tasks for each feature
-- prioritise the implementation of different features, or checklist items within a feature
-- provide a deadline, duration or other time indicator for each feature or checklist/checklist-item
 ### Menu feature
 - The menu feature was one of the first I worked on as I used similar code to a tutorial we had done. I had to learn how to use the os library import to use the system module within the menu feature. I had all of my featured due on 14/07 to allow testing time before presenting on 15/07. This is the checklist I used for the menu feature.
     - List menu options
@@ -71,6 +68,7 @@
     - Figure out how to quit program
     - Create error response 
     - Test menu function
+
 ### Hints feature
 - The hints feature is the second feature I focussed on as it is one of the more complicated features in the game. I had to take the time to understand the random module in Python and how to get functions to work together as well as import files into each other to get it working in a way that wasn't cluttered. This was also due on 14/07 to make sure I allowed time for testing and was ready for presenting on 15/07, however I made sure it was functional by 13/07 to allow for adequate testing with the other functions.This is the checklist I used for the hints feature:
     - List hints in an accessible manner
@@ -78,8 +76,9 @@
     - Create function for randomly choosing hints
     - Get functions working together
     - Test performance of hints system
+    
 ### Score Keeping feature
-- The score keeping feature was complicated to figure out for being smaller compared to the hints feature. I tried multiple different ways to get the feature to keep track of points between rounds, but ended up using a global variable and simplifying it as much as I could. This also involed figuring out how to get functions working together, which I had trouble with to begin with but thankfully figured out. This feature had the same time frame as the others, but I was able to complete it by the 13th with some minor fixes by the 15th. This is the checklist I used for the score keeping feature:
+- The score keeping feature was complicated to figure out for being smaller compared to the hints feature. I tried multiple different ways to get the feature to keep track of points between rounds, but ended up using a global variable and simplifying it as much as I could. This also involved figuring out how to get functions working together, which I had trouble with to begin with but thankfully figured out. This feature had the same time frame as the others, but I was able to complete it by the 13th with some minor fixes by the 15th. This is the checklist I used for the score keeping feature:
     - Create relevant scoring system
     - Create function for keeping score across games
     - Connect score functions with main game functions
