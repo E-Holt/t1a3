@@ -1,5 +1,12 @@
 # T1A3 Terminal App Assignment
 
+## Functionality
+    - The purpose of this app is entertainment and to test how well users know commonly used logos and icons for programming languages and frameworks. 
+
+## Installation
+    - In order to run this app you will need to install Python3, installation instructions can be found here: https://www.python.org/downloads/
+    - You then open your terminal on your computer
+
 ## My repository can be found at:
     [Repository](https://github.com/E-Holt/t1a3)
 
@@ -41,7 +48,12 @@
 - Create error handling
 - Test score keeping function
 
-
+## Design
+    - Accurately describe how to use and install the application.
+- steps to install the application
+- any dependencies required by the application to operate
+- any system/hardware requirements
+- how to use any command line arguments made for the application
 
 ## Reference List:
 
