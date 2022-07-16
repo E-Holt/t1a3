@@ -5,7 +5,25 @@
 
 ## Installation
     - In order to run this app you will need to install Python3, installation instructions can be found here: https://www.python.org/downloads/
-    - You then open your terminal on your computer
+    - You then open your terminal on your computer and type in the following:
+    ```./src/executegg.sh help``` for how to install and play this game.
+    ```./src/executegg.sh``` to go to the main menu and play the game!
+
+## How to play
+    - You can view the logos and icons used in this game in the README file in the folder containing the game.
+    - This game is played by following the prompts. 
+    - In the menu, please type in the relevant number and press the enter key. 
+    - If you've chosen to view the instructions you can then press enter again to return to the menu. 
+    - If you've chosen to play the game, the game will give you a hint then prompt you for a colour name. 
+    - Please type in the colour name in lower cased letters, then press enter. 
+    - If you type in the incorrect colour or any other word that is not the colour, it will count as an incorrect guess and you'll be given a new hint for the same colour.
+    - Remember you only have five guesses! 
+    - If you don't guess correctly within those five guesses, you'll be asked if you want to play again. 
+    - Please type in “yes” or “no” and press enter. 
+    - If you guessed correctly, you'll be given a score based on how many guesses it took and will be asked if you'd like to play again. 
+    - If you guess correctly in multiple rounds, you'll be shown your total score for all the rounds you've played if you haven’t exited the game. 
+    - When you're done playing, you can choose "no" to playing again, or exit the terminal at any point. 
+    - Thanks for playing the game!
 
 ## My repository can be found at:
     [Repository](https://github.com/E-Holt/t1a3)
