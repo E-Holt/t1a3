@@ -87,41 +87,176 @@
     - Test score keeping function
 
 ## Logos and Icons used
+Angular logo (Angular, 2022)
 <img src="./docs/logos/angular_logo.png" width=50px  height=50px alt="Angular logo">
+
+Apache Cordova logo (Apache Project logos, 2022)
 <img src="./docs/logos/Apache_Cordova_Logo.svg.png" width=100px height=50px alt="Cordova logo">
+
+Bash logo (ProspectOne, 2016)
 <img src="./docs/logos/bash_logo.png" width=100px height=50px alt="Bash logo">
+
+Bootstrap logo (Otto, 2011)
 <img src="./docs/logos/bootstrap_logo.png" width=50px  height=50px alt="Bootstrap logo"> 
+
+Bosque logo (Scarlet and LeBlanc, 2019)
 <img src="./docs/logos/Bosque_logo.png" width=100px height=50px alt="Bosque logo"> 
+
+C# logo (Chavez, 2020)
 <img src="./docs/logos/c%23_logo.png" width=50px  height=50px alt="C# logo">
+
+C++ logo (Kratz, 2017)
 <img src="./docs/logos/C%2B%2B_Logo.png" width=50px  height=50px alt="C++ logo">
+
+C logo (C Programming Language Logo)
 <img src="./docs/logos/c_logo.png" width=50px  height=50px alt="C logo"> 
+
+CSS logo (daPhyre, 2016)
 <img src="./docs/logos/css_logo.png" width=50px  height=75px alt="CSS logo">
+
+Delphi logo (Embarcadero News, 2022)
 <img src="./docs/logos/delphi_logo.png" width=50px  height=50px alt="Delphi">
+
+Django logo (Django, 2022)
 <img src="./docs/logos/django-logo-negative.png" width=100px height=50px alt="Django logo">
+
+Elixir logo (Elixir, 2015)
 <img src="./docs/logos/Elixir_logo.png" width=50px  height=50px alt="Elixir logo">
+
+Hack logo (Hack, 2017)
 <img src="./docs/logos/Hack_logo.png" width=50px  height=50px alt="Hack logo">
+
+Hadoop logo (Apache Hadoop, 2016)
 <img src="./docs/logos/hadoop_logo.png" width=125px height=50px alt="Hadoop logo">
+
+HTML logo (W3C HTML5 Logo, 2011)
 <img src="./docs/logos/html_logo.png" width=50px  height=75px alt="HTML logo">
+
+Java logo (Java Licensing logo guidelines, 2016)
 <img src="./docs/logos/Java_logo.svg.png" width=50px  height=75px alt="Java logo">
+
+Kotlin logo (Kotlin Programming Language, 2021)
 <img src="./docs/logos/Kotlin_logo_2021.png" width=100px height=50px alt="Kotlin logo">
-<img src="./docs/logos/linux.png" width=50px  height=75px alt="Linus mascot">
+
+Linux mascot (Gabovitch, 2016)
+<img src="./docs/logos/linux.png" width=50px  height=75px alt="Linux mascot">
+
+.NET logo  (Massi, 2020)
 <img src="./docs/logos/Microsoft_.NET_logo.png" width=50px  height=50px alt=".NET logo">
+
+Microsoft logo (Microsoft Legal, 2012)
 <img src="./docs/logos/Microsoft_logo.png" width=125px height=50px alt="Microsoft logo">
+
+Node logo (Node.js, 2016)
 <img src="./docs/logos/node_logo.png" width=100px height=50px alt="Node logo">
+
+PHP (PHP: Download Logos, 2001)
 <img src="./docs/logos/PHP-logo.png" width=100px height=50px alt="PHP logo">
+
+Python logo (PSF Trademark Usage Policy, 2008)
 <img src="./docs/logos/python_logo.png" width=50px height=50px alt="Python logo">
+
+Pytorch logo (PyTorch Brand Guidelines, 2020)
 <img src="./docs/logos/pytourch_logo.png" width=125px height=50px alt="Pytorch logo">
+
+R logo (R: The R Project for Statistical Computing, 2016)
 <img src="./docs/logos/R_logo.png" width=75px height=50px alt="R logo">
-<img src="./docs/logos/rails_logo.png" width=100px height=50px alt="Ruby on Rails logo">
+
+Ruby logo (Matsumoto, 2022)
 <img src="./docs/logos/ruby_logo.png" width=50px height=50px alt="Ruby logo">
+
+Ruby on Rails logo (Trademarks policy, 2016) 
+<img src="./docs/logos/rails_logo.png" width=100px height=50px alt="Ruby on Rails logo">
+
+Rust logo (Rust Foundation, 2014)
 <img src="./docs/logos/rust_logo.png" width=50px height=50px alt="Rust logo">
+
+Spark Java logo(Åse, 2014)
 <img src="./docs/logos/Spark_Java_Logo.png" width=50px height=50px alt="Spark logo">
+
+Spring logo (Spring Trademark Guidelines, 2018)
 <img src="./docs/logos/spring_logo.png" width=125px height=50px alt="Spring logo">
+
+Swift (Swift Resources, 2014)
 <img src="./docs/logos/swift_logo.png" width=100px height=50px alt="Swift logo">
+
+TensorFlow(TensorFlow Brand Guidelines, 2019)
 <img src="./docs/logos/tensorflow_logo.png" width=100px height=50px alt="TensorFlow logo">
+
+TypeScript (TypeScript Website, 2020)
 <img src="./docs/logos/Typescript_logo_2020.png" width=50px height=50px alt="Typescript logo">
+
+JavaScript (Williams, 2011)
 <img src="./docs/logos/Unofficial_JavaScript_logo.png" width=50px height=50px alt="JavaScript logo">
 
 ## Reference List:
 
+Angular.io. 2022. Angular. [online] Available at: <https://angular.io/presskit> [Accessed 16 July 2022].
+
+Apache.org. 2022. Apache Project logos. [online] Available at: <https://www.apache.org/logos/> [Accessed 16 July 2022].
+
+Åse, D., 2014. Spark Framework: An expressive web framework for Kotlin and Java. [online] Spark Java. Available at: <https://sparkjava.com/> [Accessed 16 July 2022].
+
+Chavez, M., 2020. GitHub - MartinChavez/CSharp: C# : Test-Driven Learning. [online] GitHub. Available at: <https://github.com/MartinChavez/CSharp> [Accessed 16 July 2022].
+
+daPhyre. 2016. File:CSS3 and HTML5 logos and wordmarks.svg - Wikimedia Commons. [online] Available at: <https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_logos_and_wordmarks.svg#/media/File:CSS3_logo_and_wordmark.svg> [Accessed 16 July 2022].
+
+Developer.apple.com. 2014. Swift Resources. [online] Available at: <https://developer.apple.com/swift/resources/> [Accessed 16 July 2022].
+
+Django Project. 2022. Django. [online] Available at: <https://www.djangoproject.com/> [Accessed 16 July 2022].
+
+Elixir Language. 2015. Elixir. [online] Available at: <https://elixir-lang.org/> [Accessed 16 July 2022].
+
+Embarcadero. 2022. Embarcadero News. [online] Available at: <https://www.embarcadero.com/news/logo> [Accessed 16 July 2022].
+
+Gabovitch, I., 2016. Tux (mascot) - Wikipedia. [online] En.wikipedia.org. Available at: <https://en.wikipedia.org/wiki/Tux_(mascot)#/media/File:TuxFlat.svg> [Accessed 16 July 2022].
+
+GitHub. 2020. TypeScript Website. [online] Available at: <https://github.com/microsoft/TypeScript-Website/blob/f407e1ae19e5e990d9901ac8064a32a8cc60edf0/packages/typescriptlang-org/static/branding/ts-logo-512.svg> [Accessed 16 July 2022].
+
+Hack Language. 2017. Hack. [online] Available at: <https://hacklang.org/> [Accessed 16 July 2022].
+
+Hadoop.apache.org. 2016. Apache Hadoop. [online] Available at: <https://hadoop.apache.org/> [Accessed 16 July 2022].
+
+Kotlin. 2021. Kotlin Programming Language. [online] Available at: <https://kotlinlang.org/> [Accessed 16 July 2022].
+
+Kratz, J., 2017. GitHub - isocpp/logos: C++ logos created for isocpp.org. [online] GitHub. Available at: <https://github.com/isocpp/logos> [Accessed 16 July 2022].
+
+Massi, B., 2020. brand/dotnet-logo.svg at main · dotnet/brand. [online] GitHub. Available at: <https://github.com/dotnet/brand/blob/main/logo/dotnet-logo.svg> [Accessed 16 July 2022].
+
+Matsumoto, Y., 2022. The Ruby Logo. [online] Ruby-lang.org. Available at: <https://www.ruby-lang.org/en/about/logo/> [Accessed 16 July 2022].
+
+Microsoft Legal. 2012. Trademark and Brand Guidelines | Microsoft Legal. [online] Available at: <https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks> [Accessed 16 July 2022].
+
+Node.js. 2016. Logos and Graphics | Node.js. [online] Available at: <https://nodejs.org/en/about/resources/> [Accessed 16 July 2022].
+
+Oracle. 2016. Java Licensing logo guidelines. [online] Available at: <https://www.oracle.com/a/ocom/docs/java-licensing-logo-guidelines-1908204.pdf> [Accessed 16 July 2022].
+
+Otto, M., 2011. Bootstrap Blog. [online] Blog.getbootstrap.com. Available at: <https://blog.getbootstrap.com/> [Accessed 16 July 2022].
+
+PHP. 2001. PHP: Download Logos. [online] Available at: <https://www.php.net/download-logos.php> [Accessed 16 July 2022].
+
+ProspectOne, 2016. GitHub - odb/official-bash-logo: Everything you need to start using the official GNU Bash logo. [online] GitHub. Available at: <https://github.com/odb/official-bash-logo> [Accessed 16 July 2022].
+
+Python. 2008. PSF Trademark Usage Policy. [online] Available at: <https://www.python.org/psf/trademarks/> [Accessed 16 July 2022].
+
+PyTorch. 2020. PyTorch Brand Guidelines. [online] Available at: <https://pytorch.org/assets/brand-guidelines/PyTorch-Brand-Guidelines.pdf> [Accessed 16 July 2022].
+
+R-project.org. 2016. R: The R Project for Statistical Computing. [online] Available at: <https://www.r-project.org/> [Accessed 16 July 2022].
+
+Ruby on Rails. 2016. Trademarks policy. [online] Available at: <https://rubyonrails.org/trademarks> [Accessed 16 July 2022].
+
+Rust Foundation. 2014. Rust Foundation. [online] Available at: <https://foundation.rust-lang.org/policies/logo-policy-and-media-guide/> [Accessed 16 July 2022].
+
+Scarlet, N. and LeBlanc, N., 2019. BosqueLanguage/Fabric-Bosque.svg at master · microsoft/BosqueLanguage. [online] GitHub. Available at: <https://github.com/microsoft/BosqueLanguage/blob/master/resources/brand/combined/Fabric-Bosque.svg> [Accessed 16 July 2022].
+
+Seeklogo. C Programming Language Logo PNG Vector (SVG) Free Download. [online] Available at: <https://seeklogo.com/vector-logo/306166/c-programming-language> [Accessed 16 July 2022].
+
+Spring. 2018. Spring Trademark Guidelines. [online] Available at: <https://spring.io/trademarks> [Accessed 16 July 2022].
+
+Tensorflow.org. 2019. TensorFlow Brand Guidelines. [online] Available at: <https://www.tensorflow.org/extras/tensorflow_brand_guidelines.pdf> [Accessed 16 July 2022].
+
+W3.org. 2011. W3C HTML5 Logo. [online] Available at: <https://www.w3.org/html/logo/index.html> [Accessed 16 July 2022].
+
 W3schools.com. 2022. Python Variable Names. [online] Available at: <https://www.w3schools.com/python/gloss_python_variable_names.asp> [Accessed 15 July 2022].
+
+Williams, C., 2011. logo js. [online] GitHub. Available at: <https://github.com/voodootikigod/logo.js/blob/1544bdeed/js.svg> [Accessed 16 July 2022].
