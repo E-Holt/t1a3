@@ -1,4 +1,17 @@
-How to install:
+Functionality:
+    - The purpose of this app is entertainment and to test how well users know commonly used logos and icons for programming languages and frameworks. 
+
+Installation:
+    - In order to run this app you will need to install Python3, installation instructions can be found here: https://www.python.org/downloads/
+    - Install git, installation instructions can be found here : https://git-scm.com/downloads
+    - Clone the repository from github by typing the following command into your terminal:
+    ```git clone https://github.com/E-Holt/t1a3.git```
+    - You then open your terminal on your computer and type in the following:
+    ```./src/executegg.sh help``` for how to install and play this game.
+    ```./src/executegg.sh``` to go to the main menu and play the game!
+    - If your terminal says you don't have permission, run this script then try again:
+    ```chmod +x src/executegg.sh```
+    - This program should work on any computer and operating system capable of installing python3. 
 
 Instructions:
     - You can view the logos and icons used in this game in the README file in the folder containing the game.
