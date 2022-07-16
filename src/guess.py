@@ -5,7 +5,6 @@ import colourlist
 # Import for the score keeping feature
 import score
 # The one global variable I couldn't get to work inside the function
-keep_adding_points = 0
 
 # This function chooses one of the colours listed randomly, then takes the list of hints associated with the colour and shuffles it.
 # The shuffled hints list and chosen colour are then used in the next function, which is called at the end of this one. Part of the hints feature.
